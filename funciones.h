@@ -10,8 +10,19 @@
 #define N 10
 
 //SELECCION DE CARTA
-int selCarta(int a, float b[]);
+float selCarta(int a, float b[]);
 
 // SELECCION DE PALO
 
-void selPalo(char b[N]);
+char *selPalo(char b[N]);
+
+// REPARTIR
+void repartir(float a[], char b[N], int c[], int d, int e);
+
+float medioPunto(float a);
+
+// PEDIR CARTAS MAS CONTADOR DE PUNTOS
+
+int pedirPlantarse(int a[], int b, float c[]);
+
+//int pedir(int arrayJugadores[], float arrayCartas[], int cantJugadores);
